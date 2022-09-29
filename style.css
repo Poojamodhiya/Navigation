@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  width: 150px;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+ul li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 0px 20px 0px 20px;
+}
+/* -----------nav 2 -------*/
+:root {
+  --clr: rgb(17, 180, 172);
+}
+
+.nav_2 {
+  width: 100%;
+}
+.nav_2 li {
+  border-radius: 20px;
+  margin: 10px;
+  list-style: none;
+  position: relative;
+}
+
+.nav_2 li a {
+  border: 2px solid var(--clr);
+  color: var(--clr);
+  width: auto;
+  background-color: transparent;
+  padding: 7px;
+} 
+
+.nav_2 li a:hover {
+  color: white;
+  background-color: var(--clr);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+/* ----------using class nav 3 -------*/
+/* 
+.nav_3 li a {
+  background-color: rgb(31, 31, 32);
+  box-shadow: 10px 10px 8px #88888848;
+}
+
+.nav_3 li a:hover {
+  border-radius: 50%;
+  transition: 0.5s;
+  background: rgba(31, 31, 32, 0.267);
+  color: rgb(31, 31, 32);
+  margin: 10px;
+} */
+
+/* ----------using last child property -------*/ 
+
+ul:last-child li a{
+    background-color: rgb(31, 31, 32);
+    box-shadow: 10px 10px 8px #88888848;
+}
+
+ul:last-child li a:hover {
+    border-radius: 50%;
+    transition: 0.5s;
+    background: rgba(31, 31, 32, 0.267);
+    color: rgb(31, 31, 32);
+    margin: 10px;
+  } 
